@@ -1,0 +1,77 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+      position: absolute;
+      left: 38.8%;
+      
+      font-family:Arial, Helvetica, sans-serif;
+      font-size: 25px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color:rgb(138, 137, 137);
+}
+
+body{
+    background-image: linear-gradient(to right,  #671d67, #401e5b);
+
+}
+.grupo{
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 20%;
+}
+fieldset{
+    border: 3px solid #9400d3;
+}
+legend{
+    text-align: center;
+    background-color: #9400d3;
+    border: 1px solid #9400d3;
+    padding: 10px;
+    border-radius: 7px;
+}
+.campo{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border:none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+top: -20px;
+font-size: 12px;
+color:dodgerblue;
+
+}
+#bot{
+    width: 240px;
+    height: 30px;
+    background-image: linear-gradient(to right,  #3741a0ea, #670d9bde);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
